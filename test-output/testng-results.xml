@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case Started]]>
+    </line>
+    <line>
+      <![CDATA[Loading Properties File]]>
+    </line>
+    <line>
+      <![CDATA[Properties File Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Base URL :https://reqres.in/api/]]>
+    </line>
+    <line>
+      <![CDATA[HTTP request created]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Ended]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="831" started-at="2020-07-08T15:48:12 IST" finished-at="2020-07-08T15:48:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="831" started-at="2020-07-08T15:48:12 IST" finished-at="2020-07-08T15:48:13 IST">
+      <class name="com.tests.TC001_GetData_Deepalii">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.tests.TC001_GetData_Deepalii@9225652]" name="setUp" is-config="true" duration-ms="418" started-at="2020-07-08T15:48:12 IST" finished-at="2020-07-08T15:48:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.tests.TC001_GetData_Deepalii.postreq()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Started]]>
+            </line>
+            <line>
+              <![CDATA[Loading Properties File]]>
+            </line>
+            <line>
+              <![CDATA[Properties File Loaded]]>
+            </line>
+            <line>
+              <![CDATA[Base URL :https://reqres.in/api/]]>
+            </line>
+            <line>
+              <![CDATA[HTTP request created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postreq()[pri:0, instance:com.tests.TC001_GetData_Deepalii@9225652]" name="postreq" duration-ms="8" started-at="2020-07-08T15:48:12 IST" finished-at="2020-07-08T15:48:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postreq -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.TC001_GetData_Deepalii@9225652]" name="tearDown" is-config="true" duration-ms="367" started-at="2020-07-08T15:48:12 IST" finished-at="2020-07-08T15:48:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postreq status=SUCCESS method=TC001_GetData_Deepalii.postreq()[pri:0, instance:com.tests.TC001_GetData_Deepalii@9225652] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.TC001_GetData_Deepalii -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
